@@ -19,4 +19,4 @@ gulp.task('watch', function() {
     gulp.watch(['src/*.js', 'test/**'], ['babel', 'mocha']);
 });
 
-gulp.task('default', ['watch']);
+gulp.task('default', ['babel', 'mocha', 'watch']);

@@ -1,3 +1,5 @@
+"use strict";
+
 function solve() {
   return true;
 }

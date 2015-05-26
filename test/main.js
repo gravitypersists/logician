@@ -19,7 +19,8 @@ describe('Basic numeric equivalanece:', function() {
   runTests([
     "1 == 1", true,
     "1 == 2", false,
-    "1 != 2", false,
+    "1 != 2", true,
+    "1 != 1", false,
   ])
 
 })

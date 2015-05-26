@@ -3,6 +3,8 @@ A simple logical parser as an npm module
 
 ## Usage
 
+`npm install logician`
+
 ```
 
 var solve = require('logician')
@@ -30,6 +32,12 @@ Synonyms: `== =` `or ||` `and &&` `not !`
 It's worth noting that you should avoid confusing `==` with `is` as the former is a numerical comparison and the latter a logical comparisons.
 
 See `test/main.js` for many more examples.
+
+## Yeah, but why?
+
+It allows strings to be defined externally to an application and fed in to be computed at runtimes.
+
+For instance, if you have an application defined by a number of configuration files, or defined by an authoring tool, you can allow authors to account for logical decisions without them writing code.
 
 ## Development
 

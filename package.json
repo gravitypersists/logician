@@ -2,9 +2,9 @@
   "name": "logician",
   "version": "1.0.0",
   "description": "A simple logical parser as an npm module",
-  "main": "index.js",
+  "main": "dist/logician.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "gulp mocha"
   },
   "repository": {
     "type": "git",
@@ -15,9 +15,11 @@
     "parser",
     "shunting",
     "yard",
-    "rpn"
+    "rpn",
+    "polish",
+    "notation"
   ],
-  "author": "",
+  "author": "Michael Silveira",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/gravitypersists/logician/issues"
